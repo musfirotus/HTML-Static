@@ -574,7 +574,6 @@ iframe,
 embed,
 object {
   display: block;
-  vertical-align: middle;
 }
 
 /**
@@ -7129,7 +7128,7 @@ video {
 }
 
 .mt-40 {
-  rem;
+  margin-top: 8,5rem;
 }
 
 .mr-40 {
