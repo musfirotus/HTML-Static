@@ -1,0 +1,31 @@
+{
+  "name": "html-static",
+  "version": "1.0.0",
+  "description": "Buile Resume using TailWindCSS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss css/styles.css -o build/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/musfirotus/HTML-Static.git"
+  },
+  "keywords": [
+    "tailwind",
+    "css",
+    "html",
+    "npm"
+  ],
+  "author": "Musfirotus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/musfirotus/HTML-Static/issues"
+  },
+  "homepage": "https://github.com/musfirotus/HTML-Static#readme",
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.6.2"
+  }
+}
